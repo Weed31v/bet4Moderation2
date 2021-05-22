@@ -37,7 +37,7 @@ message.channel.send(embed)
   message.channel.send(new Discord.MessageEmbed().setColor("RANDOM").setDescription("Kullanıcıyı Bulamadım!"));
   return;
 }
-}
+};
 exports.conf = {
   name: "avatar",
   aliases: [],
